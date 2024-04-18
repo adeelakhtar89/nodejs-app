@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:837442576474:task-definition/nodejs-app-task-definition:2",
+    "taskDefinitionArn": "arn:aws:ecs:eu-north-1:763857617563:task-definition/nodejs-app-task-definition:3",
     "containerDefinitions": [
         {
             "name": "nodejs-app",
@@ -29,15 +29,14 @@
                     "awslogs-stream-prefix": "ecs"
                 },
                 "secretOptions": []
-            },
-            "systemControls": []
+            }
         }
     ],
     "family": "nodejs-app-task-definition",
-    "taskRoleArn": "arn:aws:iam::837442576474:role/ecsTaskExecutionRole",
-    "executionRoleArn": "arn:aws:iam::837442576474:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::763857617563:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::763857617563:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 2,
+    "revision": 3,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -83,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-04-18T19:04:49.240Z",
-    "registeredBy": "arn:aws:iam::837442576474:user/Adeel",
+    "registeredAt": "2023-09-25T19:33:06.607Z",
+    "registeredBy": "arn:aws:iam::763857617563:root",
     "tags": []
 }
